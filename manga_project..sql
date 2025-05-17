@@ -15,6 +15,13 @@ To answer this question I asked ChatGPT's help to review the files and help me f
 4. Authors [AVG(score) per author, most popular demographic] 
 
 */
+
+-- Create a copy of the original table
+
+SELECT *
+FROM dbo.manga 
+INTO normalized_manga
+	
 -- Check column's data type
 
 SELECT 
